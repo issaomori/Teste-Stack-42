@@ -1,0 +1,12 @@
+name: template-exemplo
+description: Template exemplo
+types:
+  - app-template
+inputs:
+  - label: Project name
+    type: text
+    name: project_name
+    default: project-name
+  - label: Mensagem para aparecer na tela.
+    type: text
+    name: mensagem
